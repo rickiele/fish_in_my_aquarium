@@ -1,0 +1,157 @@
+
+body {
+    background-color: #0C1B33;
+    color: white;
+    margin: 2.5em;
+    font-family: 'Lato', sans-serif;
+}
+/* Header */
+header {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    height: 15em;
+}
+
+.header__navigation {
+    margin-left: 40px;
+}
+
+.header__navigationLinks {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+/* Typography and Link Styling */
+h1{
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+    font-size: 1.5em;
+    color: #03B5AA;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-size: 1.25em;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+a {
+    color: #DBFE87;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C06E52; 
+
+}
+
+.content {
+    display: flex;
+}
+
+/* Containers */
+.container {
+}
+
+.container--left {
+    flex: 3;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.container--right {
+    flex: 1;
+    background-color: #DBFE87;
+    color: #0C1B33;
+}
+
+.container--left article {
+    margin-bottom: 25px;
+}
+
+.content {
+}
+
+/* Fishies */
+
+.fishList__titleDiv {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.fish {
+    margin: 40px;
+}
+.fishList {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #03B5AA;
+}
+.fish__image {
+    width: 16em;
+    display: flex;
+}
+
+
+/* Quotes */
+.quotesList {
+  background-color: #F4F1BB;
+  display: flex;
+    color: #0C1B33;
+    padding: 20px;
+}
+
+.quote {
+    font-size: 1.5em;
+    font-style: italic;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 20px;
+}
+
+.quotes__author {
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    font-size: .8em;
+    margin-top: 10px;
+}
+
+/* Locations */
+.locations {
+    background-color: teal;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.location {
+    margin: 40px;
+}
+
+.locations__div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Tank Tips */
+.tankTips {
+    font-size: 1.75em;
+    margin: 35px;
+    
+}
+
+.tip__text {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
